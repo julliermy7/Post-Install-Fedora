@@ -69,7 +69,7 @@ pip install --upgrade lxml mov-cli
 echo "Instalando fontes locais..."
 # Criar pasta de fontes locais (caso não exista)
 mkdir -p ~/.local/share/fonts
-cp "/home/julliermy/Post-Install-Fedora/fontes/"*.ttf ~/.local/share/fonts/
+cp "$HOME/Post-Install-Fedora/fontes/"*.ttf ~/.local/share/fonts/
 
 # Atualizar cache de fontes
 fc-cache -fv
