@@ -1,0 +1,108 @@
+{
+	"window-size": {
+		"width": 1356,
+		"height": 697
+	},
+	"window-maximized": false,
+	"window-position": {
+		"x": 5,
+		"y": 66
+	},
+	"url": "https://music.youtube.com/watch?v=eJ07HGo6_Rg&list=OLAK5uy_kz9H3xNr1jrqo7GBrrM2qdlNsJYPf6hTI&index=0",
+	"options": {
+		"tray": true,
+		"appVisible": true,
+		"autoUpdates": true,
+		"alwaysOnTop": false,
+		"hideMenu": false,
+		"hideMenuWarned": false,
+		"startAtLogin": false,
+		"disableHardwareAcceleration": false,
+		"removeUpgradeButton": false,
+		"restartOnConfigChanges": false,
+		"trayClickPlayPause": false,
+		"autoResetAppCache": true,
+		"resumeOnStart": false,
+		"likeButtons": "",
+		"proxy": "",
+		"startingPage": "",
+		"overrideUserAgent": false,
+		"usePodcastParticipantAsArtist": false,
+		"themes": [
+			"/home/julliermy/.config/YouTube Music/Themes/dracula-juba.css"
+		],
+		"language": "pt-BR"
+	},
+	"plugins": {
+		"notifications": {},
+		"video-toggle": {
+			"mode": "custom"
+		},
+		"precise-volume": {
+			"globalShortcuts": {}
+		},
+		"discord": {
+			"listenAlong": true,
+			"enabled": true
+		},
+		"amuse": {
+			"enabled": true
+		},
+		"scrobbler": {
+			"enabled": true,
+			"scrobbleOtherMedia": true,
+			"alternativeTitles": false,
+			"scrobblers": {
+				"lastfm": {
+					"enabled": true,
+					"token": "M3uYd4jZ-IQl8u4I01KbIzMXhEKc7UTD",
+					"sessionKey": "iR67Z2mZuyLYmX7qwN0ozLDrDqHY6Y5m",
+					"apiRoot": "https://ws.audioscrobbler.com/2.0/",
+					"apiKey": "04d76faaac8726e60988e14c105d421a",
+					"secret": "a5d2a36fdf64819290f6982481eaffa2"
+				},
+				"listenbrainz": {
+					"enabled": false,
+					"apiRoot": "https://api.listenbrainz.org/1/"
+				}
+			}
+		},
+		"downloader": {
+			"enabled": true
+		},
+		"ambient-mode": {
+			"enabled": false
+		},
+		"lyrics-genius": {
+			"enabled": true
+		},
+		"synced-lyrics": {
+			"enabled": true
+		},
+		"picture-in-picture": {
+			"enabled": true,
+			"alwaysOnTop": true,
+			"savePosition": true,
+			"saveSize": false,
+			"hotkey": "P",
+			"pip-position": [
+				10,
+				10
+			],
+			"pip-size": [
+				450,
+				275
+			],
+			"isInPiP": false,
+			"useNativePiP": true
+		},
+		"equalizer": {
+			"enabled": true
+		}
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "3.8.0"
+		}
+	}
+}

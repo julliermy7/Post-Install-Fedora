@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"C Improved",
+		"Catppuccin color schemes",
+		"Dracula Color Scheme",
+		"Git",
+		"Guna",
+		"Highlight Build Errors",
+		"Package Control",
+		"SublimeREPL",
+		"Terminal",
+	],
+}
