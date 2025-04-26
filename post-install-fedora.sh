@@ -85,6 +85,9 @@ mkdir -p ~/.config
 # Copia as configs para a pasta de config do user
 cp -rf "$HOME/Post-Install-Fedora/configs/"* ~/.config/
 
+# Copiando linuxtoolbox
+cp -rf "$HOME/Post-Install-Fedora/linuxtoolbox/" "$HOME/linuxtoolbox"
+
 # Fazendo backup do bash
 echo "Fazendo backup do bash..."
 cp "$HOME/.bashrc" "$HOME/.bashrc.backup"
