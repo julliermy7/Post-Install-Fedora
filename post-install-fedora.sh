@@ -91,7 +91,7 @@ cp "$HOME/.bashrc" "$HOME/.bashrc.backup"
 
 # Copiando novo bashrc
 echo "Copiando configuração do bash..."
-cp -f "$HOME/Post-Install-Fedora/bashrc/.bashrc" "$HOME/.bashrc"
+cp -f "$HOME/Post-Install-Fedora/.bashrc" "$HOME/.bashrc"
 
 echo "Bash copiado com sucesso."
 
