@@ -25,6 +25,7 @@ echo "Instalando pacotes via DNF..."
 sudo dnf install -y \
   fastfetch \
   vlc \
+  neovim \
   steam \
   kitty \
   git \
@@ -69,11 +70,31 @@ pip install --upgrade lxml mov-cli
 echo "Instalando fontes locais..."
 # Criar pasta de fontes locais (caso não exista)
 mkdir -p ~/.local/share/fonts
-cp "/home/julliermy/Documentos/Post-Install Fedora/fontes/"*.ttf ~/.local/share/fonts/
+cp "$HOME/Post-Install-Fedora/fontes/"*.ttf ~/.local/share/fonts/
 
 # Atualizar cache de fontes
 fc-cache -fv
 
 echo "Fontes instaladas com sucesso!"
 
-echo "Instalação finalizada!"
+echo "Copiando arquivos de configuração..."
+
+# Só pra garantir que o diretório de config existe
+mkdir -p ~/.config
+
+# Copia as configs para a pasta de config do user
+cp -rf "$HOME/Post-Install-Fedora/configs/"* ~/.config/
+
+# Fazendo backup do bash
+echo "Fazendo backup do bash..."
+cp "$HOME/.bashrc" "$HOME/.bashrc.backup"
+
+# Copiando novo bashrc
+echo "Copiando configuração do bash..."
+cp -f "$HOME/Post-Install-Fedora/bashrc/.bashrc" "$HOME/.bashrc"
+
+echo "Bash copiado com sucesso."
+
+echo "Arquivos de configuração copiados com sucesso."
+
+echo "Instalação finalizada! Reinicie seu terminal para atualizar o bash."
