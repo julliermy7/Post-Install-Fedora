@@ -8,9 +8,6 @@ sudo dnf install -y \
   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-echo "Habilitando copr do Ani-Cli..."
-sudo dnf copr enable derisis13/ani-cli -y
-
 echo "Adicionando repositório Flatpak (Flathub)..."
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
@@ -22,7 +19,6 @@ sudo dnf install -y \
   steam \
   kitty \
   git \
-  ani-cli \
   obs-studio \
   obs-studio-devel \
   obs-studio-libs \
