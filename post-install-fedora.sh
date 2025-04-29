@@ -14,6 +14,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 echo "Instalando pacotes via DNF..."
 sudo dnf install -y \
   fastfetch \
+  libavcodec-freeworld \
   vlc \
   neovim \
   steam \
