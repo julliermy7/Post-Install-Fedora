@@ -23,7 +23,7 @@ sudo dnf install -y \
   obs-studio \
   obs-studio-devel \
   obs-studio-libs \
-  https://github.com/th-ch/youtube-music/releases/download/v3.8.1/youtube-music-3.8.1.x86_64.rpm \
+  https://github.com/th-ch/youtube-music/releases/download/v3.9.0/youtube-music-3.9.0.x86_64.rpm \
   curl \
   alsa-lib-devel \
   fftw3-devel \
@@ -43,7 +43,6 @@ sudo dnf install -y \
 
 echo "Instalando pacotes via Flatpak..."
 flatpak install -y flathub \
-  io.github.ungoogled_software.ungoogled_chromium \
   com.stremio.Stremio \
   com.discordapp.Discord \
   io.github.hmlendea.geforcenow-electron \
