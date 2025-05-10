@@ -23,7 +23,7 @@ sudo dnf install -y \
   obs-studio \
   obs-studio-devel \
   obs-studio-libs \
-  https://github.com/th-ch/youtube-music/releases/download/v3.9.0/youtube-music-3.9.0.x86_64.rpm \
+  https://github.com/th-ch/youtube-music/releases/download/v3.9.1/youtube-music-3.9.1.x86_64.rpm \
   curl \
   alsa-lib-devel \
   fftw3-devel \
@@ -33,9 +33,9 @@ sudo dnf install -y \
   pkgconf \
   cava \
   qbittorrent \
-  lutris \
-  fuzzel \
+  polybar \
   fzf \
+  cronie \
   mpv \
   filezilla \
   flameshot \
@@ -47,6 +47,7 @@ flatpak install -y flathub \
   com.discordapp.Discord \
   io.github.hmlendea.geforcenow-electron \
   com.protonvpn.www \
+  com.heroicgameslauncher.hgl \
   md.obsidian.Obsidian
 
 echo "Instalando PiP do Python..."

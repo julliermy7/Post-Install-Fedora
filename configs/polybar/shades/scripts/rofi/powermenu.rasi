@@ -8,9 +8,9 @@
  */
 
 configuration {
-	font:							"Fantasque Sans Mono 10";
+	font:							"CaskaydiaCove Nerd Font Mono 11";
     show-icons:                     true;
-	icon-theme: 					"Papirus";
+	icon-theme: 					"Dracula";
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
@@ -39,12 +39,12 @@ prompt {
 	padding: 						10px 15px 10px 15px;
 	background-color: 				@bg2;
 	text-color: 					#FFFFFF;
-	font:							"Iosevka Nerd Font 10";
+	font:							"CaskaydiaCove Nerd Font Mono 11";
 }
 
 textbox-prompt-colon {
 	padding: 						10px 15px 10px 15px;
-	font:							"Iosevka Nerd Font 10";
+	font:							"CaskaydiaCove Nerd Font Mono 11";
 	background-color: 				@bg1;
 	text-color: 					#FFFFFF;
 	expand: false;
@@ -52,7 +52,7 @@ textbox-prompt-colon {
 }
 
 entry {
-    background-color:               @bg3;
+    background-color:               @bg4;
     text-color:                     #FFFFFF;
     placeholder-color:              #FFFFFF;
     expand:                         true;
@@ -65,7 +65,7 @@ entry {
 
 inputbar {
 	children: 						[ textbox-prompt-colon, prompt ];
-    background-color:               @bg2;
+    background-color:               @bg4;
     text-color:                     #FFFFFF;
     expand:                         false;
 	border:							0px;
@@ -75,7 +75,7 @@ inputbar {
 }
 
 listview {
-    background-color:               @al;
+    background-color:               @bg;
     padding:                        0px;
     columns:                        1;
     lines:                          5;
@@ -121,7 +121,7 @@ element-text {
 
 element selected {
     background-color:               @bg3;
-    text-color:                     @bg;
+    text-color:                     @fg;
 	border:							0px;
     border-radius:                  0px;
     border-color:                  	@bg;

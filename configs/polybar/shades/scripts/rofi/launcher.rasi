@@ -8,9 +8,9 @@
  */
 
 configuration {
-	font:							"Fantasque Sans Mono 10";
+	font:							"CaskaydiaCove Nerd Font Mono 11";
     show-icons:                     true;
-	icon-theme: 					"Papirus";
+	icon-theme: 					"Dracula";
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
@@ -39,7 +39,7 @@ prompt {
 	padding: 						10px 15px 10px 15px;
 	background-color: 				@bg1;
 	text-color: 					#FFFFFF;
-	font:							"Iosevka Nerd Font 10";
+	font:							"CaskaydiaCove Nerd Font Mono 11";
 }
 
 entry {
