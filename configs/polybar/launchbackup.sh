@@ -17,14 +17,8 @@ launch_bar() {
 	elif [[ "$style" == "pwidgets" ]]; then
 		bash "$dir"/pwidgets/launch.sh --main
 	else
-		polybar -q main -c "$dir/$style/config.ini" &
+		polybar -q main -c "$dir/$style/config.ini" &	
 	fi
-
-	# Aguarda a Polybar iniciar e remove da taskbar
-	sleep 1
-	wmctrl -r "polybar-top" -b add,skip_taskbar 2>/dev/null
-	wmctrl -r "polybar-bottom" -b add,skip_taskbar 2>/dev/null
-	wmctrl -r "polybar-main" -b add,skip_taskbar 2>/dev/null
 }
 
 if [[ "$1" == "--material" ]]; then
@@ -78,7 +72,7 @@ elif [[ "$1" == "--panels" ]]; then
 else
 	cat <<- EOF
 	Usage : launch.sh --theme
-
+		
 	Available Themes :
 	--blocks    --colorblocks    --cuts      --docky
 	--forest    --grayblocks     --hack      --material
