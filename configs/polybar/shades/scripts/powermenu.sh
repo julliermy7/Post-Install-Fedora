@@ -75,7 +75,7 @@ case $chosen in
     $logout)
 		ans=$(confirm_exit)
 		if [[ $ans =~ ^(yes|y|YES|Y)$ ]]; then
-			qdbus org.kde.ksmserver /KSMServer logout 0 0 0
+			qdbus org.kde.ksmserver /KSMServer logout 0 0 1
 		elif [[ $ans =~ ^(no|n|NO|N)$ ]]; then
 			exit 0
         else
