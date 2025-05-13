@@ -34,6 +34,7 @@ sudo dnf install -y \
   cava \
   qbittorrent \
   polybar \
+  wlogout \
   fzf \
   cronie \
   mpv \
